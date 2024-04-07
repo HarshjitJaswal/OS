@@ -1,5 +1,5 @@
 import java.util.*;
-public class MyClass {
+public class SORTJAVA {
     public static void main(String args[]) {
         int[] arr={90,2,3,4,45,6,565,75};
         System.out.printf("%s \n", Arrays.toString(arr));
