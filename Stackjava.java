@@ -1,9 +1,9 @@
-public class StackJava{
+public class Stackjava{
     private int maxSize;
     private int[] stackArray;
     private int top;
     
-    public Stack(int size){
+    public Stackjava(int size){
         maxSize= size;
         stackArray= new int[maxSize];
         top=-1;
@@ -33,13 +33,13 @@ public class StackJava{
         return (top==maxSize-1);
     }
 public static void main(String[] args){
-    Stackjava stack= new Stack(5);
-    stack.push(10);
-    stack.push(20);
-    stack.push(30);
+    Stackjava stack= new Stackjava(5);
+    stack.push(21);
+    stack.push(97);
+    stack.push(69);
     stack.pop();
-    stack.push(40);
-    stack.push(50);
+    stack.push(54);
+    stack.push(23);
     
 }
 }
