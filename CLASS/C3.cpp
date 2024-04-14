@@ -17,6 +17,6 @@ public:
 
 int main() {
     Dog myDog;
-    myDog.sound(); // Output: Dog barks
+    myDog.sound();
     return 0;
 }
